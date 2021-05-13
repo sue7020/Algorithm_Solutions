@@ -45,4 +45,25 @@ public class DFS_11724 {
                 dfs(i, graph, visited);
         }
     }
+
+
+    public static void bfs(int component, int[][] graph, boolean[] visited) {
+
+        Queue<Integer> que = new LinkedList<>();
+        que.add(component);
+        visited[component] = true;
+
+        while(!que.isEmpty()) {
+            int num = que.remove();
+            visited[num] = true;
+
+            for(int i=1; i<graph.length; i++)
+            {
+                if(!visited[i] && graph[num][i] == 1) {
+                    que.add(i);
+                    visited[i] = true;
+                }
+            }
+        }
+    }
 }
