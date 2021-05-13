@@ -2,6 +2,7 @@ package BoJ;
 
 import java.util.*;
 
+// 연결 요소의 개수
 public class DFS_11724 {
     public static void main(String[] args) {
         int answer = 0;
