@@ -2,6 +2,8 @@ package BoJ;
 
 import java.util.*;
 
+// DFS > 섬의 개수
+
 public class DFS_4963 {
     static int[] dx = {0,0,-1,1,-1,-1,1,1};
     static int[] dy = {-1,1,0,0,-1,1,-1,1};
@@ -50,8 +52,6 @@ public class DFS_4963 {
             if(check(xx, yy) && map[xx][yy] == 1)
                 dfs(xx, yy, map);
         }
-        
-
     }
 
     private static boolean check(int xx, int yy) {
