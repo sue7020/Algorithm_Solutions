@@ -1,5 +1,7 @@
 package Programmers;
 
+// 연습문제 > 피보나치 수
+
 public class Solution_12945 {
     public static void main(String[] args) {
         int n = 5;
