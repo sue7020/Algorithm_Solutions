@@ -2,6 +2,7 @@ package Programmers;
 
 import java.util.PriorityQueue;
 
+// 힙(Heap) > 더 맵게
 public class Solution_42626 {
 
     public static void main(String[] args) {
