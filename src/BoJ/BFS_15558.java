@@ -71,6 +71,7 @@ public class BFS_15558 {
             }
         }
 
+        // 각 칸에 대한 이동시간을 나타낸다.
         for(int i=0; i<time.length; i++) {
             for (int j = 0; j < time[i].length; j++)
                 System.out.print(time[i][j] + " ");
